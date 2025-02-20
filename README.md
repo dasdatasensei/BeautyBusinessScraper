@@ -115,7 +115,7 @@ Logs are stored in the `logs/` directory. Each scraper maintains its own log fil
 
 ## License
 
--
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
