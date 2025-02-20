@@ -115,11 +115,11 @@ Logs are stored in the `logs/` directory. Each scraper maintains its own log fil
 
 ## License
 
-[Your chosen license]
+-
 
 ## Author
 
-[Your Name]
+Dr. Jody-Ann S. Jones (Founder, The Data Sensei)
 
 ## Acknowledgments
 
