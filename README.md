@@ -1,4 +1,4 @@
-# Beauty Business Scraper
+# Beauty & Wellness Business Scraper
 
 A comprehensive web scraping solution for collecting information about beauty and wellness businesses. This project includes specialized scrapers for various data sources including Google Places, Facebook, and custom web scraping implementations.
 
