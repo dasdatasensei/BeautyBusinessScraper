@@ -70,6 +70,7 @@ BRIGHTDATA_USER=your_brightdata_username
 BRIGHTDATA_PASS=your_brightdata_password
 BRIGHTDATA_HOST=your_brightdata_host
 BRIGHTDATA_PORT=your_brightdata_port
+BRIGHTDATA_PROXY_URL=http://your_brightdata_username:your_brightdata_password@your_brightdata_host:your_brightdata_port
 ```
 
 ## Usage

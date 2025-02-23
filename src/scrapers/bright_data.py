@@ -5,6 +5,7 @@ import asyncio
 import aiohttp
 import pandas as pd
 from typing import List, Dict
+from urllib.parse import quote
 
 from bs4 import BeautifulSoup
 from openai import AsyncOpenAI
@@ -28,7 +29,11 @@ logger = logging.getLogger(__name__)
 
 # Configuration
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-PROXY_URL = "http://brd-customer-hl_402ac692-zone-residential_proxy:cxmobfmrh8qp@brd.superproxy.io:33335"
+BRIGHTDATA_PROXY_URL = os.getenv("BRIGHTDATA_PROXY_URL")
+
+if not BRIGHTDATA_PROXY_URL:
+    logger.error("BRIGHTDATA_PROXY_URL environment variable is not set")
+    raise ValueError("BRIGHTDATA_PROXY_URL environment variable is required")
 
 
 class BusinessFinder:
@@ -197,7 +202,7 @@ class BusinessFinder:
 
                 try:
                     async with session.get(
-                        search_url, proxy=PROXY_URL, ssl=False, timeout=30
+                        search_url, proxy=BRIGHTDATA_PROXY_URL, ssl=False, timeout=30
                     ) as response:
                         if response.status == 200:
                             text = await response.text()
