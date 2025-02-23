@@ -58,7 +58,7 @@ BeautyBusinessScraper/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/BeautyBusinessScraper.git
+git clone https://github.com/dasdatasensei/BeautyBusinessScraper.git
 cd BeautyBusinessScraper
 ```
 
@@ -128,7 +128,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-Dr. Jody-Ann S. Jones (Founder, The Data Sensei)
+Dr. Jody-Ann S. Jones
+Founder, The Data Sensei
+Website: [www.thedatasensei.com](https://www.thedatasensei.com)
+Email: [jody@thedatasensei.com](mailto:jody@thedatasensei.com)
+GitHub: [@dasdatasensei](https://github.com/dasdatasensei)
 
 ## Acknowledgments
 
