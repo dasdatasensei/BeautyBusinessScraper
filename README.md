@@ -1,5 +1,12 @@
 # Beauty & Wellness Business Scraper
 
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Poetry](https://img.shields.io/badge/poetry-managed-blue)](https://python-poetry.org/)
+[![Selenium](https://img.shields.io/badge/selenium-4.28.1-green)](https://www.selenium.dev/)
+[![OpenAI](https://img.shields.io/badge/openai-1.0.0+-blue)](https://openai.com/)
+
 A comprehensive web scraping solution for collecting information about beauty and wellness businesses. This project includes specialized scrapers for various data sources including Google Places, Facebook, and custom web scraping implementations.
 
 ## Features
